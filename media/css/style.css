@@ -1,0 +1,62 @@
+canvas {
+  border: solid 1px; 
+}
+
+h2
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;\
+	font-size: 18px;
+}
+
+
+#scorestable
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 15px;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+}
+#scorestable th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+#scorestable td
+{
+	color: #669;
+	padding: 9px 8px 0px 8px;
+}
+#scorestable tbody tr:hover td
+{
+	color: #009;
+}
+
+#restartbutton {
+  color: #039;
+  font: bold 84% "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  background-color:#fed;
+  border:1px solid;
+  border-color: #696 #363 #363 #696;
+}
+
+hr {
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 8px auto;
+	height: 0;
+	max-height: 0;
+	width: 60%;
+	clear: both;
+	border: none;
+	border-top: 1px solid #AAA;
+	border-bottom: 1px solid #FFF;
+	font-size: 1px;
+	line-height: 0;
+}

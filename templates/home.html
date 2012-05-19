@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Colorful lines</title>
+<script type="text/javascript" src="{{ static_url('js/lib/jquery-1.4.1.min.js') }}"></script>
+<link href="{{ static_url('css/style.css') }}" rel="stylesheet"/>
+</head>
+<body>
+<center>
+<canvas id="canvas" width="500" height="300"></canvas>
+
+<hr/>
+<input type="button" value="Restart game" id="restartbutton" onClick="new_game()">
+<hr/>
+
+<div id="imagestub"></div>
+
+<table id="scorestable">
+  <thead>
+    <tr>
+        <th scope="col"></th>
+        <th scope="col">Name</th>
+        <th scope="col">Score</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <!-- <tr><td></td><tr/> go here -->
+  </tbody>
+</table>
+
+</center>
+<script type="text/javascript" src="{{ static_url('js/do_ajax.js') }}"></script>
+<script type="text/javascript" src="{{ static_url('js/graph.js') }}"></script>
+<script type="text/javascript" src="{{ static_url('js/colorful_lines.js') }}"></script>
+
+</body>
+</html>
+

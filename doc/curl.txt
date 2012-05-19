@@ -1,0 +1,5 @@
+# GET TOKEN
+curl -v http://localhost:8000/colorful_lines/get_token/ -d "" -HX-Requested-With:XMLHttpRequest
+
+# SUBMIT SCORE
+curl -v http://localhost:8000/colorful_lines/submit_score/ -d "name=sleepycat&score=12345&token=352480" -HX-Requested-With:XMLHttpRequest
