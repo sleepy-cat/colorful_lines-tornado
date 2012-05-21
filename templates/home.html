@@ -1,10 +1,11 @@
-<html>
-<head>
+{% extends "base.html" %}
+
+{% block head %}
 <title>Colorful lines</title>
-<script type="text/javascript" src="{{ static_url('js/lib/jquery-1.4.1.min.js') }}"></script>
-<link href="{{ static_url('css/style.css') }}" rel="stylesheet"/>
-</head>
-<body>
+<link href="{{ static_url('css/style.css') }}" rel='stylesheet'/>
+{% end %}
+
+{% block content %}
 <center>
 <canvas id="canvas" width="500" height="300"></canvas>
 
@@ -33,6 +34,4 @@
 <script type="text/javascript" src="{{ static_url('js/graph.js') }}"></script>
 <script type="text/javascript" src="{{ static_url('js/colorful_lines.js') }}"></script>
 
-</body>
-</html>
-
+{% end %}
